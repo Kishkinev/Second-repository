@@ -1,5 +1,9 @@
 #include "Weather.h"
+<<<<<<< HEAD
 #include "JsonService.h"
+=======
+#include "XmlService.h"
+>>>>>>> feature-xml
 
 using namespace std;
 
@@ -10,7 +14,12 @@ int main()
     weather.printWeatherDescription();
     return 0;*/
 
+<<<<<<< HEAD
     JsonService js;
     Weather w = js.getWeather("weather.json");
+=======
+    XmlService xs;
+    Weather w = xs.getWeather("weather.xml");
+>>>>>>> feature-xml
 
 }

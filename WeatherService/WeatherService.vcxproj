@@ -127,15 +127,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="json.hpp" />
     <ClInclude Include="JsonService.h" />
+=======
+    <ClInclude Include="pugiconfig.hpp" />
+    <ClInclude Include="pugixml.hpp" />
+>>>>>>> feature-xml
     <ClInclude Include="Service.h" />
     <ClInclude Include="Weather.h" />
+    <ClInclude Include="XmlService.h" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="JsonService.cpp" />
+=======
+    <ClCompile Include="pugixml.cpp" />
+>>>>>>> feature-xml
     <ClCompile Include="Weather.cpp" />
     <ClCompile Include="WeatherService.cpp" />
+    <ClCompile Include="XmlService.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
